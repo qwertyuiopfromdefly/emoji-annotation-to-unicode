@@ -98,26 +98,12 @@ async function getUnicodeData() {
     return [...s].map(c => c.codePointAt(0).toString(16)).join('-');
   }
 
-  function fixupName(name, cps) {
-    if (/_facing_right$/.test(name)) {
-      // HACK: As of 15.1, several facing_right emoji are missing their skin
-      //       tone modifier descriptions.
-      const m = /-(1f3f[b-f])-/.exec(cps);
-      if (m) {
-        if (/skin_tone/.test(name))
-          throw new Error('Right-facing emoji includes unexpected skin ' +
-            'tone qualifier; check if this fixup is still necessary');
-        name += '_' + SKIN_TONES[m[1]];
-      }
-    }
-    return name;
-  }
-
   function processEmoji(entry) {
     const cps = stringToCodepoints(entry.emoji);
     let name = UNICODE_OVERRIDES[cps] || entry.description;
-    name = name.toLowerCase().replace(/[^a-z0-9 -]/g, '').replace(/ /g, '_');
-    name = fixupName(name, cps);
+    name = name.toLowerCase()
+      .replace(/[^a-z0-9 -]/g, '')
+      .replace(/[ -]/g, '_');
     if (result[name])
       throw new Error(`Ambiguous Unicode emoji name ${name}: ` +
                       `${result[name]} <-> ${cps}`);
