@@ -1,6 +1,6 @@
 {
   "name": "emoji-annotation-to-unicode",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Emoji shortcode to Unicode map",
   "main": "emoji-annotation-to-unicode.js",
   "scripts": {
