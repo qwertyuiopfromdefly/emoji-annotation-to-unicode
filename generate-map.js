@@ -152,6 +152,8 @@ async function main() {
     result[name] = cps;
   }
 
+ Object.assign(result, require('./aliases'));
+  
   const text = `module.exports = ${JSON.stringify(result, null, 2)};\n`;
   fs.writeFileSync(OUTPUT_FILENAME, text);
 }
