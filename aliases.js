@@ -1,83 +1,85 @@
-"antigua_and_barbuda": "1f1e6-1f1ec"
-"bosnia_and_herzegovina": "1f1e7-1f1e6"
-"cabo_verde": "1f1e8-1f1fb"
-"ceuta_and_melilla": "1f1ea-1f1e6"
-"china": "1f1e8-1f1f3"
-"czechia": "1f1e8-1f1ff"
-"democratic_republic_of_the_congo": "1f1e8-1f1e9"
-"drc": "1f1e8-1f1e9"
-"east_timor": "1f1f9-1f1f1"
-"eswatini": "1f1f8-1f1ff"
-"federated_states_of_micronesia": "1f1eb-1f1f2"
-"france": "1f1eb-1f1f7"
-"fsm": "1f1eb-1f1f2"
-"great_britain": "1f1ec-1f1e7"
-"germany": "1f1e9-1f1ea"
-"italy": "1f1ee-1f1f9"
-"ivory_coast": "1f1e8-1f1ee"
-"kingdom_of_saudi_arabia": "1f1f8-1f1e6"
-"ksa": "1f1f8-1f1e6"
-"nz": "1f1f3-1f1ff"
-"north_macedonia": "1f1f2-1f1f0"
-"palestine": "1f1f5-1f1f8"
-"republic_of_korea": "1f1f0-1f1f7"
-"republic_of_the_congo": "1f1e8-1f1ec"
-"rok": "1f1f0-1f1f7"
-"russia": "1f1f7-1f1fa"
-"sao_tome_and_principe": "1f1f8-1f1f9"
-"south_georgia_and_the_south_sandwich_islands": "1f1ec-1f1f8"
-"south_korea": "1f1f0-1f1f7"
-"spain": "1f1ea-1f1f8"
-"saint_barthelemy": "1f1e7-1f1f1"
-"saint_helena": "1f1f8-1f1ed"
-"saint_kitts_nevis": "1f1f0-1f1f3"
-"st_kitts_and_nevis": "1f1f0-1f1f3"
-"saint_kitts_and_nevis": "1f1f0-1f1f3"
-"saint_lucia": "1f1f1-1f1e8"
-"saint_martin": "1f1f2-1f1eb"
-"saint_pierre_miquelon": "1f1f5-1f1f2"
-"st_pierre_and_miquelon": "1f1f5-1f1f2"
-"saint_pierre_and_miquelon": "1f1f5-1f1f2"
-"saint_vincent_grenadines": "1f1fb-1f1e8"
-"st_vincent_and_grenadines": "1f1fb-1f1e8"
-"st_vincent_and_grenadines": "1f1fb-1f1e8"
-"svalbard_and_jan_mayen": "1f1f8-1f1ef"
-"television": "1f4fa"
-"the_aland_islands": "1f1e6-1f1fd"
-"the_bahamas": "1f1e7-1f1f8"
-"the_british_virgin_islands": "1f1fb-1f1ec"
-"the_canary_islands": "1f1ee-1f1e8"
-"the_cayman_islands": "1f1f0-1f1fe"
-"the_central_african_republic": "1f1e8-1f1eb"
-"the_cocos_islands": "1f1e8-1f1e8"
-"the_democratic_republic_of_the_congo": "1f1e8-1f1e9"
-"the_dominican_republic": "1f1e9-1f1f4"
-"the_french_southern_territories": "1f1f9-1f1eb"
-"the_gambia": "1f1ec-1f1f2"
-"the_maldives": "1f1f2-1f1fb"
-"the_marshall_islands": "1f1f2-1f1ed"
-"the_pitcairn_islands": "1f1f5-1f1f3"
-"the_republic_of_the_congo": "1f1e8-1f1ec"
-"the_solomon_islands": "1f1f8-1f1e7"
-"the_turks_and_caicos_islands": "1f1f9-1f1e8"
-"the_uk": "1f1ec-1f1e7"
-"the_us": "1f1fa-1f1f8"
-"the_usa": "1f1fa-1f1f8"
-"the_us_outlying_islands": "1f1fa-1f1f2"
-"the_us_virgin_islands": "1f1fb-1f1ee"
-"the_united_arab_emirates": "1f1e6-1f1ea"
-"the_united_kingdom": "1f1ec-1f1e7"
-"the_united_nations": "1f1fa-1f1f3"
-"the_united_states": "1f1fa-1f1f8"
-"the_united_states_of_america": "1f1fa-1f1f8"
-"the_vatican": "1f1fb-1f1e6"
-"turkiye": "1f1f9-1f1f7"
-"trinidad_and_tobago": "1f1f9-1f1f9"
-"turks_and_caicos_islands": "1f1f9-1f1e8"
-"turks_and_caicos": "1f1f9-1f1e8"
-"union_jack": "1f1ec-1f1e7"
-"united_kingdom": "1f1ec-1f1e7"
-"united_states": "1f1fa-1f1f8"
-"united_states_of_america": "1f1fa-1f1f8"
-"usa": "1f1fa-1f1f8"
-"wallis_and_futuna": "1f1fc-1f1eb"
+module.exports = {
+  "antigua_and_barbuda": "1f1e6-1f1ec",
+  "bosnia_and_herzegovina": "1f1e7-1f1e6",
+  "cabo_verde": "1f1e8-1f1fb",
+  "ceuta_and_melilla": "1f1ea-1f1e6",
+  "china": "1f1e8-1f1f3",
+  "czechia": "1f1e8-1f1ff",
+  "democratic_republic_of_the_congo": "1f1e8-1f1e9",
+  "drc": "1f1e8-1f1e9",
+  "east_timor": "1f1f9-1f1f1",
+  "eswatini": "1f1f8-1f1ff",
+  "federated_states_of_micronesia": "1f1eb-1f1f2",
+  "france": "1f1eb-1f1f7",
+  "fsm": "1f1eb-1f1f2",
+  "great_britain": "1f1ec-1f1e7",
+  "germany": "1f1e9-1f1ea",
+  "italy": "1f1ee-1f1f9",
+  "ivory_coast": "1f1e8-1f1ee",
+  "kingdom_of_saudi_arabia": "1f1f8-1f1e6",
+  "ksa": "1f1f8-1f1e6",
+  "nz": "1f1f3-1f1ff",
+  "north_macedonia": "1f1f2-1f1f0",
+  "palestine": "1f1f5-1f1f8",
+  "republic_of_korea": "1f1f0-1f1f7",
+  "republic_of_the_congo": "1f1e8-1f1ec",
+  "rok": "1f1f0-1f1f7",
+  "russia": "1f1f7-1f1fa",
+  "sao_tome_and_principe": "1f1f8-1f1f9",
+  "south_georgia_and_the_south_sandwich_islands": "1f1ec-1f1f8",
+  "south_korea": "1f1f0-1f1f7",
+  "spain": "1f1ea-1f1f8",
+  "saint_barthelemy": "1f1e7-1f1f1",
+  "saint_helena": "1f1f8-1f1ed",
+  "saint_kitts_nevis": "1f1f0-1f1f3",
+  "st_kitts_and_nevis": "1f1f0-1f1f3",
+  "saint_kitts_and_nevis": "1f1f0-1f1f3",
+  "saint_lucia": "1f1f1-1f1e8",
+  "saint_martin": "1f1f2-1f1eb",
+  "saint_pierre_miquelon": "1f1f5-1f1f2",
+  "st_pierre_and_miquelon": "1f1f5-1f1f2",
+  "saint_pierre_and_miquelon": "1f1f5-1f1f2",
+  "saint_vincent_grenadines": "1f1fb-1f1e8",
+  "st_vincent_and_the_grenadines": "1f1fb-1f1e8",
+  "saint_vincent_and_the_grenadines": "1f1fb-1f1e8",
+  "svalbard_and_jan_mayen": "1f1f8-1f1ef",
+  "television": "1f4fa",
+  "the_aland_islands": "1f1e6-1f1fd",
+  "the_bahamas": "1f1e7-1f1f8",
+  "the_british_virgin_islands": "1f1fb-1f1ec",
+  "the_canary_islands": "1f1ee-1f1e8",
+  "the_cayman_islands": "1f1f0-1f1fe",
+  "the_central_african_republic": "1f1e8-1f1eb",
+  "the_cocos_islands": "1f1e8-1f1e8",
+  "the_democratic_republic_of_the_congo": "1f1e8-1f1e9",
+  "the_dominican_republic": "1f1e9-1f1f4",
+  "the_french_southern_territories": "1f1f9-1f1eb",
+  "the_gambia": "1f1ec-1f1f2",
+  "the_maldives": "1f1f2-1f1fb"
+  "the_marshall_islands": "1f1f2-1f1ed",
+  "the_pitcairn_islands": "1f1f5-1f1f3",
+  "the_republic_of_the_congo": "1f1e8-1f1ec",
+  "the_solomon_islands": "1f1f8-1f1e7",
+  "the_turks_and_caicos_islands": "1f1f9-1f1e8",
+  "the_uk": "1f1ec-1f1e7",
+  "the_us": "1f1fa-1f1f8",
+  "the_usa": "1f1fa-1f1f8",
+  "the_us_outlying_islands": "1f1fa-1f1f2",
+  "the_us_virgin_islands": "1f1fb-1f1ee",
+  "the_united_arab_emirates": "1f1e6-1f1ea",
+  "the_united_kingdom": "1f1ec-1f1e7",
+  "the_united_nations": "1f1fa-1f1f3",
+  "the_united_states": "1f1fa-1f1f8",
+  "the_united_states_of_america": "1f1fa-1f1f8",
+  "the_vatican": "1f1fb-1f1e6",
+  "turkiye": "1f1f9-1f1f7",
+  "trinidad_and_tobago": "1f1f9-1f1f9",
+  "turks_and_caicos_islands": "1f1f9-1f1e8",
+  "turks_and_caicos": "1f1f9-1f1e8",
+  "union_jack": "1f1ec-1f1e7",
+  "united_kingdom": "1f1ec-1f1e7",
+  "united_states": "1f1fa-1f1f8",
+  "united_states_of_america": "1f1fa-1f1f8",
+  "usa": "1f1fa-1f1f8",
+  "wallis_and_futuna": "1f1fc-1f1eb"
+  };
